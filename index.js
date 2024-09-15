@@ -1,11 +1,4 @@
 
+require("dotenv").config();
 
-const {Client} = require("pg");
-
-const sql = new Client({
-
-connectionString:CONNECTION_STRING
-
-});
-
-sql.connect();
+console.log(process.env.CONECTION_STRING);
