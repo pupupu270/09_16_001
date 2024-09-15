@@ -8,4 +8,4 @@ connectionString:process.env.CONNECTION_STRING;
 
 });
 
-sql.connect(
+sql.connect();
